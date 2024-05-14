@@ -13,4 +13,12 @@ class Movie {
         $this->year = $year;
     }
 
+     // Metodo per stampare le informazioni del film
+     public function printInfo() {
+        echo "Title: " . $this->title . "<br>";
+        echo "Director: " . $this->director . "<br>";
+        echo "Year: " . $this->year . "<br><br>";
+    }
+}
+
 ?>
