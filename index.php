@@ -21,4 +21,15 @@ class Movie {
     }
 }
 
+// Istanziamento degli oggetti Movie
+$movie1 = new Movie("Inception", "Christopher Nolan", 2010);
+$movie2 = new Movie("The Shawshank Redemption", "Frank Darabont", 1994);
+
+// Stampa delle informazioni dei film
+echo "<h2>Movie 1:</h2>";
+$movie1->printInfo();
+
+echo "<h2>Movie 2:</h2>";
+$movie2->printInfo();
+
 ?>
